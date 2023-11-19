@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+  </head>
+
+ 
+<html>
+  <head>
+    <title>Hesap Makinesi</title>
+    <style>
+      
+     
+      .butonlar {
+        width: 100px;
+        height: 51px;
+        border: 3px ;
+        border-radius: 5px;
+        background: ;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .sonbutonlar {
+        width: 50px;
+        height: 51px;
+        border: 3px ;
+        border-radius: 5px;
+        background: ;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      #screen {
+        width: 300px;
+        height: 40px;
+        border: 3px  solid #990099;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: #990099; border-radius: 5px; width: 410px">
+      Hesap Makinesi
+    </h1>
+    <table>
+      <tr>
+        <td colspan="3">
+          <input type="text" id="screen" />
+        </td>
+        <td>
+          <input type="button" class="sonbutonlar" value="C" onclick='c("")' />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" class="butonlar" value="1" onclick='v("1")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="2" onclick='v("2")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="3" onclick='v("3")' />
+        </td>
+        <td>
+          <input type="button" class="sonbutonlar" value="/" onclick='v("/")' />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" class="butonlar" value="4" onclick='v("4")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="5" onclick='v("5")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="6" onclick='v("6")' />
+        </td>
+        <td>
+          <input type="button" class="sonbutonlar" value="-" onclick='v("-")' />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" class="butonlar" value="7" onclick='v("7")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="8" onclick='v("8")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="9" onclick='v("9")' />
+        </td>
+        <td>
+          <input type="button" class="sonbutonlar" value="+" onclick='v("+")' />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" class="butonlar" value="." onclick='v(".")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="0" onclick='v("0")' />
+        </td>
+        <td>
+          <input type="button" class="butonlar" value="=" onclick="e()" />
+        </td>
+        <td>
+          <input type="button" class="sonbutonlar" value="x" onclick='v("x")' />
+        </td>
+      </tr>
+    </table>
+
+    
+  </body>
+</html>
+
+
+
+  </body>
+</html>
